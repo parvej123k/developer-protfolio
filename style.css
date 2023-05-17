@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+span {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 100%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.page-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(navy, blue);
+    color: white;
+
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
