@@ -10,28 +10,28 @@ span {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom:
-        20%;
+        0%;
 }
 
 .half-width {
     width: 100%;
-    padding: 5%;
+    padding: 10%;
 }
 
 .half-width img {
-    width: 100%;
+    width: 120%;
 }
 
 .page-button {
     text-decoration: none;
-    padding: 10px 40px;
-    border-radius: 5px;
     background-image: linear-gradient(navy, blue);
+    padding: 10px 40px;
+    border-radius: 4px;
     color: white;
-
+    font-weight: bold;
 }
 
 .top-banner {
@@ -43,4 +43,5 @@ section {
     background-image: url(images/right\ banner.png);
     background-repeat: no-repeat;
     background-position: right;
+    
 }
